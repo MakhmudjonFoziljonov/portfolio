@@ -8557,6 +8557,12 @@ iframe[data-uk-cover] {
 .uk-margin-xlarge-left {
   margin-left: 70px !important;
 }
+.gradient-box {
+  background: linear-gradient(to right, blue, purple);
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
 .uk-margin-xlarge-right {
   margin-right: 70px !important;
 }

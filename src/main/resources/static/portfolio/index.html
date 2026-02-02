@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,18 +15,18 @@
 </head>
 <body>
 <!-- Navigation Bar -->
-    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right"
+     uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
     <div class="uk-navbar-left">
-            <a href="" class="uk-navbar-item uk-logo uk-light">Makhmudjon's way</a>
+        <a href="" class="uk-navbar-item uk-logo uk-light">Makhmudjon's way</a>
     </div>
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav uk-light">
             <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>
-
+            <li><a class="uk-button-text uk-text-capitalize" href="#contact" uk-scroll>Contact</a></li>
         </ul>
 
     </div>
@@ -34,7 +34,8 @@
 <!-- Navigation Bar Ends  -->
 
 <!-- Navigation Bar Mobile -->
-<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right"
+     uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
 
     <div class="uk-navbar-left">
         <a href="" class="uk-navbar-item uk-logo uk-light">Makhmudjon's way.</a>
@@ -42,7 +43,9 @@
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav uk-light">
-            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+            <li>
+                <button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button>
+            </li>
 
         </ul>
 
@@ -56,11 +59,9 @@
             <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
             <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
             <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
-            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
+            <li class="uk-active"><a href="#contact">Contact</a></li> <!--- change to ur email-->
 
         </ul>
-
-
 
 
     </div>
@@ -69,8 +70,10 @@
 <!-- Navigation Bar Mobile Ends -->
 <!-- Home -->
 <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Makhmudjon,a backend engineer.</h1>
-    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
+    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Makhmudjon, a backend
+        engineer.</h1>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About
+        Me</a>
 </section>
 
 <!-- Home Ends -->
@@ -88,12 +91,16 @@
     }
 </style>
 <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
-<!-- Change here to ur paragraph -->
-<p class="uk-margin-xlarge-left uk-margin-xlarge-right"> I'm a skilled software developer with experience in Java, Kotlin, and expertise in frameworks like Spring Boot. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.
-    Let's work together to bring your ideas to life!</p>
-    <a href="https://github.com/MakhmudjonFoziljonov" class="uk-margin-xlarge-left uk-light uk-button-text social-icon" uk-icon="github"></a> &nbsp;
-    <a href="https://www.linkedin.com/in/mahmudjon/" class="uk-button-text uk-light social-icon" uk-icon="linkedin"></a> &nbsp;
+    <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+    <!-- Change here to ur paragraph -->
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right"> I'm a skilled software developer with experience in Java,
+        Kotlin, and expertise in framework like Spring Boot. I'm a quick learner and collaborate closely with clients to
+        create efficient, scalable, and user-friendly solutions that solve real-world problems.
+        Let's work together to bring your ideas to life!</p>
+    <a href="https://github.com/MakhmudjonFoziljonov" class="uk-margin-xlarge-left uk-light uk-button-text social-icon"
+       uk-icon="github"></a> &nbsp;
+    <a href="https://www.linkedin.com/in/mahmudjon/" class="uk-button-text uk-light social-icon" uk-icon="linkedin"></a>
+    &nbsp;
     <a href="https://t.me/makhmoudjon" class="uk-light uk-button-text social-icon">
         <i class="fab fa-telegram" style="font-size: 19px"></i>
     </a>
@@ -101,46 +108,72 @@
     <!-- About Me Ends -->
 
 
-
 </section>
 
 <!-- Projects Section -->
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
 <section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
-<p class="uk-margin-xlarge-left">Projects that i've been working on</p>
+    <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+    <p class="uk-margin-xlarge-left">Projects completed during my student years in 2024</p>
 
-<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
-    <!-- Change all of this to ur projects -->
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Project Name</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="">
-            <span uk-icon="icon: link">
-            </span> Website Link </a>
+
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <!-- Portfolio Projects Section 1 -->
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+            <h4>Online News Platform</h4>
+            <p>Developed with Spring Boot, this application demonstrates the integration of multiple technologies
+                — Redis (caching), Flyway (database migrations), JWT-based authentication, and email delivery using
+                Spring's mail module.
+                Cloned from <a class="uk-button-text uk-text-decoration-none" href="https://kun.uz">
+                    <span uk-icon="icon: link"></span> Kun.uz
+                </a>
+            </p>
+
+            <a class="uk-button-text uk-text-decoration-none"
+               href="https://github.com/MakhmudjonFoziljonov/kunuz">
+                <span uk-icon="icon: link"></span> View Project
+            </a>
         </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>Project Name</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="uk-button-text uk-text-decoration-none" href="">
-                <span uk-icon="icon: link">
-                </span> Website Link </a>
-            </div></div>
+        <!-- Portfolio Projects Section 2 -->
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+            <h4>Book Selling Project</h4>
+            <p>This project was developed during my studies to strengthen my Object-Oriented Programming (OOP)
+                skills by building a real-world application associated with the
+                <a class="uk-button-text uk-text-decoration-none" href="https://kitabu.uz">
+                    <span uk-icon="icon: link"></span> Kitabu.uz
+                </a> platform.
+            </p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://github.com/MakhmudjonFoziljonov/kitabu_oop">
+                <span uk-icon="icon: link"></span> View Project
+            </a>
+        </div>
+        <!-- Portfolio Projects Section 3 -->
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+            <h4>Simple University Project</h4>
+            <p>The first project was developed during my studies to improve my Java Core
+                skills by building a simple, practical application.
+            </p>
+            <a class="uk-button-text uk-text-decoration-none"
+               href="https://github.com/MakhmudjonFoziljonov/university_project">
+                <span uk-icon="icon: link"></span> View Project
+            </a>
+        </div>
 
-
-
+    </div>
     <br>
-
-    <footer class="uk-section uk-section-secondary uk-padding-small">
-        <div class="uk-container uk-text-center">
-            <p class="uk-margin-remove">© 2026 makhmudjon.com</p>
-        </div>
-    </footer>
-
 </section>
+
+<section id="contact" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Email</h3>
+</section>
+
+<footer class="uk-section uk-section-secondary uk-padding-small">
+    <div class="uk-container uk-text-center">
+        <p class="uk-margin-remove">© 2026 makhmudjon.com</p>
+    </div>
+</footer>
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-</div>
 <!-- Projects Section Ends -->
-    
+
 </body>
 </html>
